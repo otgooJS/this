@@ -1,11 +1,23 @@
+* {
+    box-sizing: border-box;
+  }
+:root {
+    --max-width: 100vw;
+    /* --max-height: 636px;
+    --unit-x: 47.35px;
+    --unit-y: 47.11px; */
+}
 #container {
-    width: 256px;
-    height: 394px;
-    background-color: aqua;
+    /* width: 256px;
+    height: 394px; */
+    width: var(--max-width);
+    height: var((--max-width)*1.54);
+ 
+    background-color: bisque;
     display: flex;
     flex-direction: column;
     
 }
 img {
-    
+
 }
