@@ -2,22 +2,70 @@
     box-sizing: border-box;
   }
 :root {
-    --max-width: 100vw;
-    /* --max-height: 636px;
-    --unit-x: 47.35px;
+    --max-width: 96vw;
+    --max-height: 154vw; 
+    /*--unit-x: 47.35px;
     --unit-y: 47.11px; */
 }
 #container {
     /* width: 256px;
     height: 394px; */
     width: var(--max-width);
-    height: var((--max-width)*1.54);
+    height: var(--max-height);
  
-    background-color: bisque;
+    background-color: #F3F3F3;
+    border: 1px solid red;
     display: flex;
     flex-direction: column;
     
 }
+#img-container {
+    width: var(--max-width);
+    height: 92.4vw;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+}
+#interactive-lesson {
+    width: var(--max-width);
+    height: 9.6vw;
+    background-color: blueviolet;
+    /* margin-bottom: 5vw; */
+    /* padding-bottom: 15vw; */
+        
+}
+#parts-container{
+    width: var(--max-width);
+    height: 29vw;
+    background-color: yellow;
+}
+#video {
+    width: var(--max-width);  
+}
+.cartoon {
+    display: flex;
+    /* border: 1px solid red; */
+    /* align-items: center; */
+    /* align-content: center;     */
+    justify-content: center;
+}
 img {
-
+    height: 44vw;
+    width: auto;
+    padding: 2.5vw 5vw 1.5vw 5vw;
+    margin-top: 1vw;
+    border: 1px solid red;
+}
+#spiderman {
+    height: 38vw;
+    margin-top: 3.5vw;
+    
+}
+#batman {
+margin-left: 8.5vw;
+}
+h1 {
+border: 1px solid red;
+    text-align: center;
+    
 }
