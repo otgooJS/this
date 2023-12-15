@@ -1,0 +1,48 @@
+@media only screen and (orientation: portrait) {
+    :root {
+        --max-width: 98vw;
+        --max-height: 135vw; 
+    }
+}
+@media only screen and (orientation: landscape) {
+/* @media screen and (min-width: 600px) { */
+    :root {
+        --max-width: 50vw;
+        --max-height: 68.8vw; 
+    }
+}
+* {
+    box-sizing: border-box;
+  }
+
+#container {
+    width: var(--max-width);
+    height: var(--max-height);
+ 
+    background-color: #F3F3F3;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+}
+#container-sessions {
+    width: var(--max-width);
+    height: 84%;
+    background-color: aqua;
+    
+    display: flex;
+    flex-direction: column;
+}
+#part-selection{
+    width: var(--max-width);
+    height: 8%;
+    background-color:yellow;
+}
+.session {
+    border: 1px solid red;
+    width: var(--max-width);
+    height: 24%;
+}
+.img-word {
+    width: 25%;
+    height: auto;
+}
