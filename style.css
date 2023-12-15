@@ -1,16 +1,18 @@
 /* **************************** start of extra small devices *********************************** */
 /*Extra small devices (phones, 600px and down) */
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 300px) { */
+    @media only screen and (orientation: portrait) {
     :root {
         --max-width: 98vw;
-        --max-height: 154vw; 
+        --max-height: 135vw; 
 
     }
 }
-@media screen and (min-width: 600px) {
+@media only screen and (orientation: landscape) {
+/* @media screen and (min-width: 600px) { */
     :root {
-        --max-width: 30vw;
-        --max-height: 46.2vw; 
+        --max-width: 50vw;
+        --max-height: 68.8vw; 
 
     }
 }
