@@ -26,7 +26,7 @@
 }
 #container-sessions {
     width: var(--max-width);
-    height: 84%;
+    height: 80%;
     background-color: aqua;
     
     display: flex;
@@ -40,9 +40,9 @@
 .session {
     border: 1px solid red;
     width: var(--max-width);
-    height: 24%;
+    height: 20%;
 }
 .img-word {
-    width: 25%;
+    width: 20%;
     height: auto;
 }
